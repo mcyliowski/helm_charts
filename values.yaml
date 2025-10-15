@@ -1,5 +1,5 @@
 frontend:
-  replicaCount: 2
+  replicaCount: 1
   image:
     repository: cyna58/nauka_kubernetes
     tag: frontend-k8s
@@ -9,7 +9,7 @@ frontend:
     nodePort: 30080
 
 backend:
-  replicaCount: 2
+  replicaCount: 1
   image:
     repository: cyna58/nauka_kubernetes
     tag: backend-k8s
